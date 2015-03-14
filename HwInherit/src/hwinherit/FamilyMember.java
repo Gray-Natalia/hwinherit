@@ -12,6 +12,23 @@ package hwinherit;
 public class FamilyMember {
     private String name, gender;
     private int age;
+    
+    FamilyMember(){
+        name = gender = "none";
+        age = 0;
+    }
+    
+    FamilyMember(String n, String g, int a){
+        name = n;
+        gender = g;
+        age = a;
+    }
+    
+    FamilyMember(FamilyMember ob) {
+        name = ob.name;
+        gender = ob.gender;
+        age = ob.age;
+    }
    
     String getName(){ return name; }
     String getGender(){ return gender;}

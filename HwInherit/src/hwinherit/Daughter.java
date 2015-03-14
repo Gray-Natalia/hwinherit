@@ -9,17 +9,24 @@ package hwinherit;
  *
  * @author kalavic
  */
-public class Daughter extends FamilyMembers {
-    private String talents;
+public class Daughter extends FamilyMember {
+    private final String talents;
     
-    //Constructor
+    //Constructors
+    Daughter(){
+        super();
+        talents = "none";
+    }
     Daughter(String n, String g, int a, String t){
-    setName(n);
-    setGender(g);
-    setAge(a);
+    super(n, g, a);
     
     talents = t;
             }
+    
+    Daughter(Daughter ob){
+        super(ob);
+        talents = ob.talents;
+    }
     
     void showTalents() {
         System.out.println(getName() + " knows how to " + talents + ".");
