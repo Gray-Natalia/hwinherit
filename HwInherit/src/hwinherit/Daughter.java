@@ -9,11 +9,11 @@ package hwinherit;
  *
  * @author kalavic
  */
-public class Daughter1 extends FamilyMembers {
+public class Daughter extends FamilyMembers {
     private String talents;
     
     //Constructor
-    Daughter1(String n, String g, int a, String t){
+    Daughter(String n, String g, int a, String t){
     setName(n);
     setGender(g);
     setAge(a);
@@ -23,5 +23,5 @@ public class Daughter1 extends FamilyMembers {
     
     void showTalents() {
         System.out.println(getName() + " knows how to " + talents + ".");
-    }
+    } 
 }

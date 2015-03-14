@@ -15,19 +15,15 @@ public class HwInherit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Daughter1 d1 = new Daughter1("Yeva", "girl", 6, "dance");
-        Daughter1 d2 = new Daughter1("Celestia", "girl", 3, "color");
+        Daughter d1 = new Daughter("Yeva", "girl", 6, "dance");
+        Daughter d2 = new Daughter("Celestia", "girl", 3, "color");
         
         d1.showInfo();
         d1.showTalents();
-        
         System.out.println();
         
         d2.showInfo();
         d2.showTalents();
-        
-                
-        
     }
     
 }

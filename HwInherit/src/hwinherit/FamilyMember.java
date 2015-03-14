@@ -9,8 +9,7 @@ package hwinherit;
  *
  * @author kalavic
  */
-//super-class
-public class FamilyMembers {
+public class FamilyMember {
     private String name, gender;
     private int age;
    
@@ -27,4 +26,3 @@ public class FamilyMembers {
                 " and " + name + " is a " + gender + ".");
     }
 }
-    
