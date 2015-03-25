@@ -5,6 +5,8 @@
  */
 package hwinherit;
 
+import family.arrays.ArrayFun;
+import family.arrays.ArrayFun2;
 import family.enums.Family;
 
 /**
@@ -17,7 +19,7 @@ public class HwInherit {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Breed b1 = new Breed("Chelsey", "girl", 1, 3, "Puddle");
+        /*Breed b1 = new Breed("Chelsey", "girl", 1, 3, "Puddle");
         Daughter d1 = new Daughter("Yeva", "girl", 6, "dance");
         Daughter d2 = new Daughter("Celestia", "girl", 3, "color");
         Father f1 = new Father("Kevin", "boy", 32, "tickled");
@@ -90,6 +92,12 @@ public class HwInherit {
         // use valueOf()
         Family mb = Family.valueOf("FATHER"); 
     System.out.println(mb + " is a patriarh of the Family.");
+    
+    ArrayFun arrayFun = new ArrayFun();
+       arrayFun.getInput();*/
+         
+        ArrayFun2 arrayFun2 = new ArrayFun2();
+        arrayFun2.getInput2();
   } 
     
     
